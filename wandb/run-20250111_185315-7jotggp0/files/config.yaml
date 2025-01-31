@@ -1,0 +1,149 @@
+wandb_version: 1
+
+url_list:
+  desc: null
+  value: cc3m_validation.tsv
+image_size:
+  desc: null
+  value: 256
+output_folder:
+  desc: null
+  value: validation
+processes_count:
+  desc: null
+  value: 16
+resize_mode:
+  desc: null
+  value: border
+resize_only_if_bigger:
+  desc: null
+  value: false
+upscale_interpolation:
+  desc: null
+  value: lanczos
+downscale_interpolation:
+  desc: null
+  value: area
+encode_quality:
+  desc: null
+  value: 95
+encode_format:
+  desc: null
+  value: jpg
+skip_reencode:
+  desc: null
+  value: false
+output_format:
+  desc: null
+  value: webdataset
+input_format:
+  desc: null
+  value: tsv
+url_col:
+  desc: null
+  value: url
+caption_col:
+  desc: null
+  value: caption
+bbox_col:
+  desc: null
+  value: null
+thread_count:
+  desc: null
+  value: 64
+number_sample_per_shard:
+  desc: null
+  value: 10000
+extract_exif:
+  desc: null
+  value: true
+save_additional_columns:
+  desc: null
+  value: null
+timeout:
+  desc: null
+  value: 10
+enable_wandb:
+  desc: null
+  value: true
+wandb_project:
+  desc: null
+  value: img2dataset
+oom_shard_count:
+  desc: null
+  value: 5
+compute_hash:
+  desc: null
+  value: sha256
+verify_hash:
+  desc: null
+  value: null
+distributor:
+  desc: null
+  value: multiprocessing
+subjob_size:
+  desc: null
+  value: 1000
+retries:
+  desc: null
+  value: 0
+disable_all_reencoding:
+  desc: null
+  value: false
+min_image_size:
+  desc: null
+  value: 0
+max_image_area:
+  desc: null
+  value: .inf
+max_aspect_ratio:
+  desc: null
+  value: .inf
+incremental_mode:
+  desc: null
+  value: incremental
+max_shard_retry:
+  desc: null
+  value: 1
+user_agent_token:
+  desc: null
+  value: null
+disallowed_header_directives:
+  desc: null
+  value:
+  - noai
+  - noimageai
+  - noindex
+  - noimageindex
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.16
+    cli_version: 0.16.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1736617995.759949
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      - 80
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      - 80
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.10.16
+      5: 0.16.1
+      8:
+      - 5
+      - 9
+      13: linux-x86_64
